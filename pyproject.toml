@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pulse-induction-metal-classifier"
+version = "0.3.0"
+description = "Edge AI pulse induction waveform classifier for metallic target identification under varying soil conditions."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Umut Kaan Sahin"}
+]
+keywords = [
+    "pulse-induction",
+    "metal-detector",
+    "edge-ai",
+    "signal-processing",
+    "waveform-classification",
+    "ground-balance",
+    "probabilistic-machine-learning"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+plot = [
+    "matplotlib>=3.8.0",
+]
+
+[project.scripts]
+pi-classifier = "pi_detector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

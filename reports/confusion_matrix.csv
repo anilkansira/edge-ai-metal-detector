@@ -1,0 +1,9 @@
+actual/predicted,Iron,Aluminum,Copper,Brass,Steel,Unknown,Mixed Target,Ground Noise
+Iron,129,0,0,0,7,1,1,0
+Aluminum,0,113,0,9,0,1,4,0
+Copper,0,0,109,0,0,1,5,0
+Brass,0,10,5,93,0,1,2,0
+Steel,0,0,0,0,109,14,4,0
+Unknown,0,0,0,0,0,101,0,4
+Mixed Target,0,0,0,0,0,0,123,0
+Ground Noise,0,0,0,0,0,0,0,114
