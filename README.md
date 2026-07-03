@@ -50,7 +50,7 @@ The goal is not to claim hardware-ready performance, but to demonstrate a clean 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pulse-induction-metal-classifier.git
+git clone https://anilkansira/pulse-induction-metal-classifier.git
 cd pulse-induction-metal-classifier
 ```
 
